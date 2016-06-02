@@ -96,5 +96,14 @@ public class MarsRovers {
     public Direction getHeading() {
         return heading;
     }
+
+    @Override
+    public String toString() {
+        return "MarsRovers{" +
+                "coordinates=" + coordinates +
+                ", heading=" + heading +
+                ", plateau=" + plateau +
+                '}';
+    }
 }
 
