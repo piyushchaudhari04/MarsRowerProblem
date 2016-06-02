@@ -1,10 +1,9 @@
-package MarsRover.main;
+package marsrover;
 
 public class Plateau {
 
 
-
-    Coordinates higherLimit;
+    private Coordinates higherLimit;
 
     public Plateau(Coordinates higherLimit) {
         this.higherLimit = higherLimit;

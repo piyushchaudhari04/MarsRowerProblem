@@ -1,18 +1,14 @@
-package MarsRover.main;
+package marsrover;
 
 public class Direction {
 
     private char heading;
-
-    public Direction() {
-    }
 
     public Direction(char direction) {
         this.heading = direction;
     }
 
     void updateHeading(char argument) {
-
         if (argument == 'L') {
 
             switch (heading) {
@@ -52,7 +48,4 @@ public class Direction {
         return heading;
     }
 
-    public void setDirection(char direction) {
-        this.heading = direction;
-    }
 }

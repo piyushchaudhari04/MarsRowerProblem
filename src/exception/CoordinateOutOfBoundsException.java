@@ -1,4 +1,4 @@
-package MarsRover.Exceeption;
+package exception;
 
 public class CoordinateOutOfBoundsException extends RuntimeException {
 
